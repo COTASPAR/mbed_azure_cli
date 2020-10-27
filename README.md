@@ -57,6 +57,110 @@ My info:
      ```
  
 <!--
+{
+  "etag": "AAAABBKxS+E=",
+  "id": "/subscriptions/f90ce610-592a-41bd-9e48-9b07ec7fdd88/resourceGroups/MbedDemoGroupTest/providers/Microsoft.Devices/IotHubs/mbedHubTest",
+  "identity": {
+    "type": "None"
+  },
+  "location": "eastus",
+  "name": "mbedHubTest",
+  "properties": {
+    "authorizationPolicies": null,
+    "cloudToDevice": {
+      "defaultTtlAsIso8601": "1:00:00",
+      "feedback": {
+        "lockDurationAsIso8601": "0:00:05",
+        "maxDeliveryCount": 10,
+        "ttlAsIso8601": "1:00:00"
+      },
+      "maxDeliveryCount": 10
+    },
+    "comments": null,
+    "enableFileUploadNotifications": false,
+    "eventHubEndpoints": {
+      "events": {
+        "endpoint": "sb://ihsuprodblres091dednamespace.servicebus.windows.net/",
+        "partitionCount": 2,
+        "partitionIds": [
+          "0",
+          "1"
+        ],
+        "path": "iothub-ehub-mbedhubtes-5547811-474d3b7af9",
+        "retentionTimeInDays": 1
+      }
+    },
+    "features": "None",
+    "hostName": "mbedHubTest.azure-devices.net",
+    "ipFilterRules": [],
+    "locations": [
+      {
+        "location": "East US",
+        "role": "primary"
+      },
+      {
+        "location": "West US",
+        "role": "secondary"
+      }
+    ],
+    "messagingEndpoints": {
+      "fileNotifications": {
+        "lockDurationAsIso8601": "0:01:00",
+        "maxDeliveryCount": 10,
+        "ttlAsIso8601": "1:00:00"
+      }
+    },
+    "minTlsVersion": null,
+    "privateEndpointConnections": null,
+    "provisioningState": "Succeeded",
+    "publicNetworkAccess": null,
+    "routing": {
+      "endpoints": {
+        "eventHubs": [],
+        "serviceBusQueues": [],
+        "serviceBusTopics": [],
+        "storageContainers": []
+      },
+      "enrichments": null,
+      "fallbackRoute": {
+        "condition": "true",
+        "endpointNames": [
+          "events"
+        ],
+        "isEnabled": true,
+        "name": "$fallback"
+      },
+      "routes": []
+    },
+    "state": "Active",
+    "storageEndpoints": {
+      "$default": {
+        "authenticationType": null,
+        "connectionString": "",
+        "containerName": "",
+        "sasTtlAsIso8601": "1:00:00"
+      }
+    }
+  },
+  "resourcegroup": "MbedDemoGroupTest",
+  "sku": {
+    "capacity": 1,
+    "name": "F1",
+    "tier": "Free"
+  },
+  "subscriptionid": "f90ce610-592a-41bd-9e48-9b07ec7fdd88",
+  "tags": {},
+  "type": "Microsoft.Devices/IotHubs"
+}
+-->
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+<!--
 1. Add endpoint 
  
      ```

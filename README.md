@@ -27,7 +27,12 @@ My info:
       ```
       az extension add --name azure-iot
       ```
+  1. Create a resource group 
   
+      ```
+      az group create -l eastus -n MbedDemoGroupTest
+      ```
+      
   1. Create a resource under free tier
   
      ```

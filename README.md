@@ -172,6 +172,36 @@ My info:
     ```
     az iot hub device-identity create --hub-name mbedHubTest --device-id MbedDeviceTest
     ```
+<!--
+{
+  "authentication": {
+    "symmetricKey": {
+      "primaryKey": "BQaa/4t2QApcB+1uYgSu9QMGiaj1m/sBDwhtVQpJXEk=",
+      "secondaryKey": "IiOFEEpl9/cQOescUqlowTjOCpmpSvZF1ntkon44ARM="
+    },
+    "type": "sas",
+    "x509Thumbprint": {
+      "primaryThumbprint": null,
+      "secondaryThumbprint": null
+    }
+  },
+  "capabilities": {
+    "iotEdge": false
+  },
+  "cloudToDeviceMessageCount": 0,
+  "connectionState": "Disconnected",
+  "connectionStateUpdatedTime": "0001-01-01T00:00:00",
+  "deviceId": "MbedDeviceTest",
+  "deviceScope": null,
+  "etag": "MTU4MjY3MDc5",
+  "generationId": "637394137160664574",
+  "lastActivityTime": "0001-01-01T00:00:00",
+  "status": "enabled",
+  "statusReason": null,
+  "statusUpdatedTime": "0001-01-01T00:00:00"
+}
+-->
+
 1. Get device connection string
 
     ```

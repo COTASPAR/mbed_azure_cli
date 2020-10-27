@@ -202,9 +202,12 @@ My info:
 }
 -->
 
-1. Get device connection string
+1. Get device connection string, open mbed_app.json and paste this string into the value field of iothub_connection_string.
 
     ```
     az iot hub device-identity connection-string show --hub-name mbedHubTest --device-id MbedDeviceTest --output table
     ```
 
+<!--
+HostName=mbedHubTest.azure-devices.net;DeviceId=MbedDeviceTest;SharedAccessKey=BQaa/4t2QApcB+1uYgSu9QMGiaj1m/sBDwhtVQpJXEk=
+-->

@@ -1,6 +1,14 @@
 # mbed_azure_cli
 Potentially useful commands for Azure CLI
 
+
+  
+  1. Log in to your Azure account  
+  
+      ```
+      az login
+      ```
+<!--
 My info:
   {
     "cloudName": "AzureCloud",
@@ -16,12 +24,8 @@ My info:
       "name": "Carlo.Grisafi@arm.com",
       "type": "user"
     }
-  
-  1. Log in to your Azure account  
-  
-      ```
-      az login
-      ```
+-->      
+   
   1. Get the IoT extension 
   
       ```
@@ -32,7 +36,20 @@ My info:
       ```
       az group create -l eastus -n MbedDemoGroupTest
       ```
-      
+<!-- 
+{
+  "id": "/subscriptions/f90ce610-592a-41bd-9e48-9b07ec7fdd88/resourceGroups/MbedDemoGroupTest",
+  "location": "eastus",
+  "managedBy": null,
+  "name": "MbedDemoGroupTest",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+-->
+   
   1. Create a resource under free tier
   
      ```

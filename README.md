@@ -50,10 +50,10 @@ My info:
 }
 -->
    
-  1. Create a resource under free tier
+  1. Create a resource under free tier, we set partion count equal to 2 since we are on the Free tier Azure won't allow any other default (values)[https://stackoverflow.com/questions/59178667/when-im-going-through-azure-iot-hub-tutorial-creating-end-with-error-partition]
   
      ```
-     az iot hub create --name mbedHubTest --resource-group MbedDemoGroupTest --location eastus --sku F1
+     az iot hub create --name mbedHubTest --resource-group MbedDemoGroupTest --location eastus --sku F1 --partition-count 2
      ```
  
 <!--

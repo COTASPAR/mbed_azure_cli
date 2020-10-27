@@ -1,7 +1,13 @@
 # mbed_azure_cli
 Potentially useful commands for Azure CLI
 
-
+  1. Clone this repo then pull libraries
+  
+      ```
+      git clone https://github.com/ARMmbed/mbed-os-example-for-azure.git
+      cd mbed-os-example-for-azure
+      mbed deploy
+      ```
   
   1. Log in to your Azure account  
   

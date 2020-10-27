@@ -22,11 +22,16 @@ My info:
       ```
       az login
       ```
+  1. Get the IoT extension 
+  
+      ```
+      az extension add --name azure-iot
+      ```
   
   1. Create a resource under free tier
   
      ```
-     az iot hub create --name mbedHubTest --resource-group MbedDemoGroupTest --location eastus --sku Free
+     az iot hub create --name mbedHubTest --resource-group MbedDemoGroupTest --location eastus --sku F1
      ```
  
 <!--

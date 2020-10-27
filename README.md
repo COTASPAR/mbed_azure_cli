@@ -25,9 +25,9 @@ My info:
   
   1. Create a resource under free tier
   
-    ```
-    az iot hub create --name mbedHubTest --resource-group MbedDemoGroupTest --location eastus --sku Free
-    ```
+     ```
+     az iot hub create --name mbedHubTest --resource-group MbedDemoGroupTest --location eastus --sku Free
+     ```
  
 <!--
 1. Add endpoint 

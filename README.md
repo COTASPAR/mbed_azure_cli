@@ -177,6 +177,36 @@ My info:
 
     ```
     az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest2 --am x509_thumbprint --valid-days 10
+    ```
+    {
+  "authentication": {
+    "symmetricKey": {
+      "primaryKey": null,
+      "secondaryKey": null
+    },
+    "type": "selfSigned",
+    "x509Thumbprint": {
+      "primaryThumbprint": "97428BB20CDA0733D6A1B2419AEAAF06ACDA76BC",
+      "secondaryThumbprint": null
+    }
+  },
+  "capabilities": {
+    "iotEdge": false
+  },
+  "cloudToDeviceMessageCount": 0,
+  "connectionState": "Disconnected",
+  "connectionStateUpdatedTime": "0001-01-01T00:00:00",
+  "deviceId": "MbedDeviceTest2",
+  "deviceScope": null,
+  "etag": "MTAxMDM3MDAzMw==",
+  "generationId": "637395778717227960",
+  "lastActivityTime": "0001-01-01T00:00:00",
+  "status": "enabled",
+  "statusReason": null,
+  "statusUpdatedTime": "0001-01-01T00:00:00"
+}
+    
+    ```
     az iot hub device-identity create --hub-name mbedHubTest --device-id MbedDeviceTest
     ```
 <!--2

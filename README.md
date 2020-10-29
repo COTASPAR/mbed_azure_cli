@@ -176,9 +176,10 @@ My info:
 1. Register a device
 
     ```
+    az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest2 --am x509_thumbprint --valid-days 10
     az iot hub device-identity create --hub-name mbedHubTest --device-id MbedDeviceTest
     ```
-<!--
+<!--2
 {
   "authentication": {
     "symmetricKey": {

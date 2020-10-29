@@ -176,6 +176,37 @@ My info:
 1. Register a device
 
     ```
+    az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest3 --ee true -g MbedDemoGroupTest --sta enabled
+    ```
+    {
+  "authentication": {
+    "symmetricKey": {
+      "primaryKey": "vIlXAQs7nh2PRCFmYGoUfvW32Iti31DJFXkTGoumcVg=",
+      "secondaryKey": "wxxHaX1y6KBNGsLTjNZ9WVJnPUhow2JORL13Lue/J+g="
+    },
+    "type": "sas",
+    "x509Thumbprint": {
+      "primaryThumbprint": null,
+      "secondaryThumbprint": null
+    }
+  },
+  "capabilities": {
+    "iotEdge": true
+  },
+  "cloudToDeviceMessageCount": 0,
+  "connectionState": "Disconnected",
+  "connectionStateUpdatedTime": "0001-01-01T00:00:00",
+  "deviceId": "MbedDeviceTest3",
+  "deviceScope": "ms-azure-iot-edge://MbedDeviceTest3-637395786841409273",
+  "etag": "NTE2NjY0NDcw",
+  "generationId": "637395786841409273",
+  "lastActivityTime": "0001-01-01T00:00:00",
+  "status": "enabled",
+  "statusReason": null,
+  "statusUpdatedTime": "0001-01-01T00:00:00"
+}
+
+    ```
     az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest2 --am x509_thumbprint --valid-days 10
     ```
     {

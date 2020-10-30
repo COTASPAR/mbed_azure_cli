@@ -178,7 +178,7 @@ My info:
     ```
     az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest3 --ee true -g MbedDemoGroupTest --sta enabled
     ```
-    {
+   <!-- {
   "authentication": {
     "symmetricKey": {
       "primaryKey": "vIlXAQs7nh2PRCFmYGoUfvW32Iti31DJFXkTGoumcVg=",
@@ -204,12 +204,12 @@ My info:
   "status": "enabled",
   "statusReason": null,
   "statusUpdatedTime": "0001-01-01T00:00:00"
-}
+}-->
 
     ```
     az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest2 --am x509_thumbprint --valid-days 10
     ```
-    {
+<!--    {
   "authentication": {
     "symmetricKey": {
       "primaryKey": null,
@@ -235,10 +235,10 @@ My info:
   "status": "enabled",
   "statusReason": null,
   "statusUpdatedTime": "0001-01-01T00:00:00"
-}
+}-->
     
     ```
-    az iot hub device-identity create --hub-name mbedHubTest --device-id MbedDeviceTest
+     az iot hub device-identity create -n mbedHubTest -d MbedDeviceTest --ee true -g MbedDemoGroupTest --sta enabled
     ```
 <!--2
 {
